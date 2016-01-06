@@ -39,7 +39,7 @@ def getNumDims(inputFile):
 # In[ ]:
 
 def writeTempLengthFile(numLines, numDims):
-    temp_file = "temp_file_with_length.txt"]
+    temp_file = "temp_file_with_length.txt"
     with open(temp_file,'w') as f:
         f.write(str(numLines)+ " " +str(numDims) + '\n')
     f.close()
@@ -87,8 +87,8 @@ def getRelevantFiles(argv):
 # In[25]:
 
 def main(argv):
-    #inputFile, outputFile = getRelevantFiles(argv)
-    inputFile = "glove.twitter.27B.25d.txt"    
+    inputFile, outputFile = getRelevantFiles(argv)
+    #inputFile = "glove.twitter.27B.25d.txt"    
     numLines = getNumLines(inputFile)
     numDims = getNumDims(inputFile)
     print "Lines: %d\nDims: %d" % (numLines, numDims)
