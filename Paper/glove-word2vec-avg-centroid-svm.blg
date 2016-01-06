@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: glove-word2vec-avg-centroid-svm.aux
+The style file: plain.bst
+Database file #1: citations.bib
+Repeated entry---line 173 of file citations.bib
+ : %@inproceedings{rangel:2015
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 186 of file citations.bib
+ : %@inproceedings{rangel:2015
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 203 of file citations.bib
+ : %@proceedings{rangel:2015
+ :                          ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 215 of file citations.bib
+ : 
+ : %  title={Overview of the 3nd Author Profiling Task at PAN 2015},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 269 of file citations.bib
+ : @inproceedings{schler2006effects
+ :                                 ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in lopezusing
+Warning--empty year in lopezusing
+Warning--empty journal in maharjansimple
+Warning--empty year in maharjansimple
+Warning--empty journal in villenadaedalus
+Warning--empty year in villenadaedalus
+Warning--empty year in weren6exploring
+You've used 18 entries,
+            2118 wiz_defined-function locations,
+            594 strings with 7649 characters,
+and the built_in function-call counts, 7001 in all, are:
+= -- 634
+> -- 481
+< -- 4
++ -- 190
+- -- 170
+* -- 547
+:= -- 1210
+add.period$ -- 53
+call.type$ -- 18
+change.case$ -- 137
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 231
+empty$ -- 449
+format.name$ -- 170
+if$ -- 1394
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 18
+newline$ -- 90
+num.names$ -- 38
+pop$ -- 157
+preamble$ -- 1
+purify$ -- 119
+quote$ -- 0
+skip$ -- 157
+stack$ -- 0
+substring$ -- 302
+swap$ -- 46
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 7
+while$ -- 56
+width$ -- 20
+write$ -- 183
+(There were 5 error messages)

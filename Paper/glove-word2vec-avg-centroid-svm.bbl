@@ -1,0 +1,106 @@
+\begin{thebibliography}{10}
+
+\bibitem{argamon2009automatically}
+Shlomo Argamon, Moshe Koppel, James~W Pennebaker, and Jonathan Schler.
+\newblock Automatically profiling the author of an anonymous text.
+\newblock {\em Communications of the ACM}, 52(2):119--123, 2009.
+
+\bibitem{breiman2001random}
+Leo Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32, 2001.
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{freund1997decision}
+Yoav Freund and Robert~E Schapire.
+\newblock A decision-theoretic generalization of on-line learning and an
+  application to boosting.
+\newblock {\em Journal of computer and system sciences}, 55(1):119--139, 1997.
+
+\bibitem{lopezusing}
+A~Pastor L{\'o}pez-Monroy, Manuel Montes-y G{\'o}mez, Hugo~Jair Escalante, and
+  Luis Villase{\~n}or-Pineda.
+\newblock Using intra-profile information for author profiling.
+
+\bibitem{lopez2013inaoe}
+Adrian~Pastor Lopez-Monroy, Manuel Montes-y Gomez, Hugo~Jair Escalante, Luis
+  Villasenor-Pineda, and Esa{\'u} Villatoro-Tello.
+\newblock Inaoe’s participation at pan’13: Author profiling task.
+\newblock In {\em CLEF 2013 Evaluation Labs and Workshop}, 2013.
+
+\bibitem{maharjansimple}
+Suraj Maharjan, Prasha Shrestha, and Thamar Solorio.
+\newblock A simple approach to author profiling in mapreduce.
+
+\bibitem{marquardt2014age}
+James Marquardt, Golnoosh Farnadi, Gayathri Vasudevan, Marie-Francine Moens,
+  Sergio Davalos, Ankur Teredesai, and Martine De~Cock.
+\newblock Age and gender identification in social media.
+\newblock {\em Proceedings of CLEF 2014 Evaluation Labs}, 2014.
+
+\bibitem{meina2013ensemble}
+Micha{\l} Meina, Karolina Brodzinska, Bartosz Celmer, Maja Czok{\'o}w, Martyna
+  Patera, Jakub Pezacki, and Mateusz Wilk.
+\newblock Ensemble-based classification for author profiling using various
+  features.
+\newblock {\em Notebook Papers of CLEF}, 2013.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{rangel2014overview}
+Francisco Rangel, Paolo Rosso, Irina Chugur, Martin Potthast, Martin Trenkmann,
+  Benno Stein, Ben Verhoeven, and Walter Daelemans.
+\newblock Overview of the 2nd author profiling task at pan 2014.
+\newblock In {\em Proceedings of the Conference and Labs of the Evaluation
+  Forum (Working Notes)}, 2014.
+
+\bibitem{rangel2013overview}
+Francisco Rangel, Paolo Rosso, Moshe Moshe~Koppel, Efstathios Stamatatos, and
+  Giacomo Inches.
+\newblock Overview of the author profiling task at pan 2013.
+\newblock In {\em CLEF Conference on Multilingual and Multimodal Information
+  Access Evaluation}, pages 352--365. CELCT, 2013.
+
+\bibitem{rangel:2015}
+Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein, and Walter
+  Daelemans.
+\newblock {Overview of the 3rd Author Profiling Task at PAN 2015}.
+\newblock In L~Cappellato, N~Ferro, J~Gareth, and E~San~Juan, editors, {\em
+  CLEF 2015 Labs and Workshops, Notebook Papers}. CEUR-WS.org, 2015.
+
+\bibitem{santosh2013author}
+K~Santosh, Romil Bansal, Mihir Shekhar, and Vasudeva Varma.
+\newblock Author profiling: Predicting age and gender from blogs.
+\newblock {\em Notebook Papers of CLEF}, 2013.
+
+\bibitem{schler2006effects}
+Jonathan Schler, Moshe Koppel, Shlomo Argamon, and James~W Pennebaker.
+\newblock Effects of age and gender on blogging.
+\newblock In {\em AAAI Spring Symposium: Computational Approaches to Analyzing
+  Weblogs}, volume~6, pages 199--205, 2006.
+
+\bibitem{villenadaedalus}
+Julio Villena-Rom{\'a}n and Jos{\'e}~Carlos Gonz{\'a}lez-Crist{\'o}bal.
+\newblock Daedalus at pan 2014: Guessing tweet author's gender and age.
+
+\bibitem{weren6exploring}
+Edson~RD Weren, Viviane~P Moreira, and Jos{\'e}~PM de~Oliveira.
+\newblock Exploring information retrieval features for author
+  profiling—notebook for pan at clef 2014.
+\newblock {\em Cappellato et al.[6]}.
+
+\bibitem{wilcoxon1945individual}
+Frank Wilcoxon.
+\newblock Individual comparisons by ranking methods.
+\newblock {\em Biometrics bulletin}, pages 80--83, 1945.
+
+\end{thebibliography}
