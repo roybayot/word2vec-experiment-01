@@ -1,0 +1,10 @@
+	dims=50 task=gender kernel=poly degree=1 C=0.001	dims=50 task=gender kernel=poly degree=1 C=1	dims=50 task=gender kernel=poly degree=1 C=1000	dims=50 task=gender kernel=poly degree=2 C=0.001	dims=50 task=gender kernel=poly degree=2 C=1	dims=50 task=gender kernel=poly degree=2 C=1000	dims=50 task=gender kernel=poly degree=3 C=0.001	dims=50 task=gender kernel=poly degree=3 C=1	dims=50 task=gender kernel=poly degree=3 C=1000
+dims=50 task=gender kernel=poly degree=1 C=0.001						0.00650170237308			0.00361051431233
+dims=50 task=gender kernel=poly degree=1 C=1						0.00650170237308			0.00361051431233
+dims=50 task=gender kernel=poly degree=1 C=1000						0.00650170237308			0.00361051431233
+dims=50 task=gender kernel=poly degree=2 C=0.001						0.00650170237308			0.00361051431233
+dims=50 task=gender kernel=poly degree=2 C=1						0.00650170237308			0.00361051431233
+dims=50 task=gender kernel=poly degree=2 C=1000	0.00650170237308	0.00650170237308	0.00650170237308	0.00650170237308	0.00650170237308		0.00579535854433	0.00650170237308	
+dims=50 task=gender kernel=poly degree=3 C=0.001						0.00579535854433			0.00407199421773
+dims=50 task=gender kernel=poly degree=3 C=1						0.00650170237308			0.00361051431233
+dims=50 task=gender kernel=poly degree=3 C=1000	0.00361051431233	0.00361051431233	0.00361051431233	0.00361051431233	0.00361051431233		0.00407199421773	0.00361051431233	
