@@ -114,7 +114,7 @@ K(x) = (\gamma(x^Tx)+c)^d
 \label{eqn:poly-kernel-scikit}
 \end{equation}
 
-For our experiments, we set the gamma to be equal to 1 but the degrees $d$ to vary between 1, 2, and 3. For both age and gender classification, $c$ varies between 0.0001, 0.001, 0.1, 1, 10, 1000, 10000.   
+For our experiments, we set the gamma to be equal to 1 but the degrees $d$ to vary between 1, 2, and 3. For both age and gender classification, $c$ varies between 0.001, 1, and 1000.   
 
 Radial basis function kernel is another kernel explored. Mathematically, it is given by equation~\ref{eqn:rbf-kernel-math}. It is similar the scikits implementation but with a regularization factor $c$. 
 
@@ -132,7 +132,17 @@ For both age and gender classification, $\sigma$ and $c$ were chosen to be one a
 
 
 \section{Results and Discussion}	
+\subsection{Accuracies of using Word Vector Averages in Different Dimentsions}
+\subsubsection{Using Polynomial Kernel}
 
+\subsubsection{Using Radial Basis Function Kernel}
+
+\subsection{Accuracies of using Bag of Words of Word Vector Centroids in Different Dimentsions}
+\subsubsection{Using Polynomial Kernel}
+\subsubsection{Using Radial Basis Function Kernel}
+
+\subsection{More Preprocessing}
+\subsubsection{Word Vector Averages}
 
 
 \section{Conclusions and Future Work}
