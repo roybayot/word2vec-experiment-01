@@ -177,13 +177,102 @@ def error_rate_for_model(test_model, target):
         train_x[i,:] = test_model.docvecs[i]
     
     scoring_function='accuracy'
-    #clf = svm.SVC(kernel='linear', C=100)
-    clf = svm.SVC(kernel='rbf', gamma=1, C=1000)
+    clf = svm.SVC(kernel='linear', C=1)
+    
+    #clf_svm_lin_1 = svm.SVC(kernel='linear', C=1)
+    #clf_svm_lin_2 = svm.SVC(kernel='linear', C=10)
+    #clf_svm_lin_3 = svm.SVC(kernel='linear', C=50)
+    #clf_svm_lin_4 = svm.SVC(kernel='linear', C=100)
+    #clf_svm_lin_5 = svm.SVC(kernel='linear', C=150)
+
+    clf_svm_poly_1 = svm.SVC(kernel='poly', degree=1, C=-50, gamma=1)
+    clf_svm_poly_2 = svm.SVC(kernel='poly', degree=1, C=1, gamma=1)
+    clf_svm_poly_3 = svm.SVC(kernel='poly', degree=1, C=100, gamma=1)
+    #clf_svm_poly_4 = svm.SVC(kernel='poly', degree=2, C=-100, gamma=1)
+    #clf_svm_poly_5 = svm.SVC(kernel='poly', degree=2, C=1, gamma=1)
+    #clf_svm_poly_6 = svm.SVC(kernel='poly', degree=2, C=100, gamma=1)
+    #clf_svm_poly_7 = svm.SVC(kernel='poly', degree=3, C=-100, gamma=1)
+    #clf_svm_poly_8 = svm.SVC(kernel='poly', degree=3, C=1, gamma=1)
+    #clf_svm_poly_9 = svm.SVC(kernel='poly', degree=3, C=100, gamma=1)
+
+
+
+    #clf_svm_rbf_11 = svm.SVC(kernel='rbf', gamma=0.01, C=0.01)
+    #clf_svm_rbf_12 = svm.SVC(kernel='rbf', gamma=0.01, C=1.00)
+    #clf_svm_rbf_13 = svm.SVC(kernel='rbf', gamma=0.01, C=100.0)
+    #clf_svm_rbf_21 = svm.SVC(kernel='rbf', gamma=1.00, C=0.01)
+    #clf_svm_rbf_22 = svm.SVC(kernel='rbf', gamma=1.00, C=1.00)
+    #clf_svm_rbf_23 = svm.SVC(kernel='rbf', gamma=1.00, C=100.0)
+    #clf_svm_rbf_31 = svm.SVC(kernel='rbf', gamma=100, C=0.01)
+    #clf_svm_rbf_32 = svm.SVC(kernel='rbf', gamma=100, C=1.00)
+    #clf_svm_rbf_33 = svm.SVC(kernel='rbf', gamma=100, C=100.0)
+
+
+    #scores_clf_svm_lin_1 = cross_validation.cross_val_score(clf_svm_lin_1, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_lin_2 = cross_validation.cross_val_score(clf_svm_lin_2, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_lin_3 = cross_validation.cross_val_score(clf_svm_lin_3, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_lin_4 = cross_validation.cross_val_score(clf_svm_lin_4, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_lin_5 = cross_validation.cross_val_score(clf_svm_lin_5, train_x, target, cv=10, scoring=scoring_function)
+
+    scores_clf_svm_poly_1 = cross_validation.cross_val_score(clf_svm_poly_1, train_x, target, cv=10, scoring=scoring_function)
+    scores_clf_svm_poly_2 = cross_validation.cross_val_score(clf_svm_poly_2, train_x, target, cv=10, scoring=scoring_function)
+    scores_clf_svm_poly_3 = cross_validation.cross_val_score(clf_svm_poly_3, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_poly_4 = cross_validation.cross_val_score(clf_svm_poly_4, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_poly_5 = cross_validation.cross_val_score(clf_svm_poly_5, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_poly_6 = cross_validation.cross_val_score(clf_svm_poly_1, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_poly_7 = cross_validation.cross_val_score(clf_svm_poly_1, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_poly_8 = cross_validation.cross_val_score(clf_svm_poly_1, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_poly_9 = cross_validation.cross_val_score(clf_svm_poly_1, train_x, target, cv=10, scoring=scoring_function)
+
+    #scores_clf_svm_rbf_11 = cross_validation.cross_val_score(clf_svm_rbf_11, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_12 = cross_validation.cross_val_score(clf_svm_rbf_12, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_13 = cross_validation.cross_val_score(clf_svm_rbf_13, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_21 = cross_validation.cross_val_score(clf_svm_rbf_21, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_22 = cross_validation.cross_val_score(clf_svm_rbf_22, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_23 = cross_validation.cross_val_score(clf_svm_rbf_23, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_31 = cross_validation.cross_val_score(clf_svm_rbf_31, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_32 = cross_validation.cross_val_score(clf_svm_rbf_32, train_x, target, cv=10, scoring=scoring_function)
+    #scores_clf_svm_rbf_33 = cross_validation.cross_val_score(clf_svm_rbf_33, train_x, target, cv=10, scoring=scoring_function)
+
+    #all_accuracies= [scores_clf_svm_lin_1.mean(), scores_clf_svm_lin_2.mean(),\
+    #                 scores_clf_svm_lin_3.mean(), scores_clf_svm_lin_4.mean(),\
+    #                 scores_clf_svm_lin_5.mean(),\
+    #                 scores_clf_svm_poly_1.mean(), scores_clf_svm_poly_2.mean(),\
+    #                 scores_clf_svm_poly_3.mean(), scores_clf_svm_poly_4.mean(),\
+    #                 scores_clf_svm_poly_5.mean(),\
+    #                 scores_clf_svm_rbf_11.mean(), scores_clf_svm_rbf_12.mean(), scores_clf_svm_rbf_13.mean(),\
+    #                 scores_clf_svm_rbf_21.mean(), scores_clf_svm_rbf_22.mean(), scores_clf_svm_rbf_23.mean(),\
+    #                 scores_clf_svm_rbf_31.mean(), scores_clf_svm_rbf_32.mean(), scores_clf_svm_rbf_33.mean()]
+
+    #all_accuracies= [scores_clf_svm_lin_1.mean(), scores_clf_svm_lin_2.mean(),\
+    #                 scores_clf_svm_lin_3.mean(), scores_clf_svm_lin_4.mean(),\
+    #                 scores_clf_svm_lin_5.mean(),\
+    #                 scores_clf_svm_poly_1.mean(), scores_clf_svm_poly_2.mean(),\
+    #                 scores_clf_svm_poly_3.mean(), scores_clf_svm_poly_4.mean(),\
+    #                 scores_clf_svm_poly_5.mean(), scores_clf_svm_poly_6.mean(),\
+    #                 scores_clf_svm_poly_7.mean(), scores_clf_svm_poly_8.mean(),\
+    #                 scores_clf_svm_poly_9.mean()]
+
+    #all_accuracies= [scores_clf_svm_poly_1.mean(), scores_clf_svm_poly_2.mean(),\
+    #                 scores_clf_svm_poly_3.mean(), scores_clf_svm_poly_4.mean(),\
+    #                 scores_clf_svm_poly_5.mean(), scores_clf_svm_poly_6.mean(),\
+    #                 scores_clf_svm_poly_7.mean(), scores_clf_svm_poly_8.mean(),\
+    #                 scores_clf_svm_poly_9.mean()]
+
+    #all_accuracies= [scores_clf_svm_poly_1.mean(), scores_clf_svm_poly_2.mean(),\
+    #                 scores_clf_svm_poly_3.mean(), scores_clf_svm_poly_4.mean(),\
+    #                 scores_clf_svm_poly_5.mean()]
+
+    all_accuracies= [scores_clf_svm_poly_1.mean(), scores_clf_svm_poly_2.mean(),\
+                     scores_clf_svm_poly_3.mean()]
+
+    all_accuracies = np.array(all_accuracies)
+    all_errors = 1.0-all_accuracies
 
     scores = cross_validation.cross_val_score(clf, train_x, target, cv=10, scoring=scoring_function)
     err = (1.0 - scores.mean())
     
-    return err
+    return err, all_errors
 
 
 # In[15]:
@@ -199,7 +288,7 @@ import datetime
 
 # In[17]:
 
-alpha, min_alpha, passes = (0.025, 0.001, 20)
+alpha, min_alpha, passes = (0.025, 0.001, 3)
 alpha_delta = (alpha - min_alpha) / passes
 
 
@@ -214,11 +303,16 @@ print("START %s" % datetime.datetime.now())
 
 
 # In[19]:
-
+n_models = len(simple_models)
+n_classification_models = 3
+all_errors_from_all_models= np.empty((n_models, passes, n_classification_models))
 target = train["age"]
+
+
 for epoch in range(passes):
     shuffle(lines)  # shuffling gets best results
     
+    iterating_on_model = 0
     for name, train_model in models_by_name.items():
         # train
         duration = 'na'
@@ -230,7 +324,7 @@ for epoch in range(passes):
         # evaluate
         eval_duration = ''
         with elapsed_timer() as eval_elapsed:
-            err = error_rate_for_model(train_model, target)
+            err, all_errors = error_rate_for_model(train_model, target)
         eval_duration = '%.1f' % eval_elapsed()
         
         best_indicator = ' '
@@ -238,6 +332,10 @@ for epoch in range(passes):
             best_error[name] = err
             best_indicator = '*' 
         print("%s%f : %i passes : %s %ss %ss" % (best_indicator, err, epoch + 1, name, duration, eval_duration))
+
+        #print len(all_errors), type(all_errors), all_errors_from_all_models.shape
+        all_errors_from_all_models[iterating_on_model, epoch, :] = all_errors
+        iterating_on_model = iterating_on_model + 1
 
 #        if ((epoch + 1) % 5) == 0 or epoch == 0:
 #            eval_duration = ''
